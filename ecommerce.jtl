@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+2020/06/01 09:05:38,2151,My Account,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,38948,208,1,1,http://localhost/ecommerce/my-account/,2148,0,72
+2020/06/01 09:05:44,728,Cart Get,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,80845,202,1,1,http://localhost/ecommerce/cart/,724,0,2
+2020/06/01 09:05:48,919,Cart Post,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,81002,452,1,1,http://localhost/ecommerce/cart/,917,0,7
+2020/06/01 09:05:51,1710,Checkout Get,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,81319,586,1,1,http://localhost/ecommerce/cart/,785,0,1
+2020/06/01 09:05:51,785,Checkout Get-0,302,Found,Concurrency Thread Group-ThreadStarter 1-1,text,true,,476,295,1,1,http://localhost/ecommerce/checkout/,785,0,1
+2020/06/01 09:05:52,924,Checkout Get-1,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,80843,291,1,1,http://localhost/ecommerce/cart/,921,0,0
+2020/06/01 09:05:56,970,Checkout Post,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,154646,1027,1,1,http://localhost/ecommerce/,968,0,2
+2020/06/01 09:06:01,2238,Home,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,154648,286,1,1,http://localhost/ecommerce/,2234,0,2
+2020/06/01 09:06:05,848,About,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,99103,292,1,1,http://localhost/ecommerce/about/,844,0,4
+2020/06/01 09:06:07,1017,Products,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,49540,295,1,1,http://localhost/ecommerce/products/,1016,0,3
+2020/06/01 09:06:09,832,Contact,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,35481,294,1,1,http://localhost/ecommerce/contact/,831,0,2
+2020/06/01 09:06:14,849,Posts,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,68388,301,1,1,http://localhost/ecommerce/category/posts/,847,0,2
+2020/06/01 09:06:18,808,Terms and Conditions,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,35487,307,1,1,http://localhost/ecommerce/terms-and-conditions/,807,0,2
+2020/06/01 09:06:22,814,Privacy Policy,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,39786,301,1,1,http://localhost/ecommerce/privacy-policy/,813,0,1
+2020/06/01 09:06:26,1073,Home,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,154648,197,1,1,http://localhost/ecommerce/,1071,0,3
+2020/06/01 09:06:30,928,About,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,99105,203,1,1,http://localhost/ecommerce/about/,925,0,1
+2020/06/01 09:06:34,931,Products,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,49540,206,1,1,http://localhost/ecommerce/products/,930,0,1
+2020/06/01 09:06:37,782,Contact,200,OK,Concurrency Thread Group-ThreadStarter 1-1,text,true,,35478,205,1,1,http://localhost/ecommerce/contact/,781,0,1
